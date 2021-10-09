@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[@Name="PRF_MassStorageBase" or @ParentName="PRF_MassStorageBase" or @Name="PRF_BuildingBase" or @ParentName="PRF_BuildingBase"]/pathCost</xpath>
+		<value><pathCost>0</pathCost></value>
+	</Operation>
+</Patch>
+
+

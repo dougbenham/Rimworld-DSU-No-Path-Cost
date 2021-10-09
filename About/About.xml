@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Project RimFactory - DSU No Path Cost</name>
+	<author>Doug</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>doug.nopathcost</packageId>
+	<modDependencies>
+		<li>
+			<packageId>spdskatr.projectrimfactory</packageId>
+			<displayName>Project RimFactory</displayName>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>spdskatr.projectrimfactory</li>
+	</loadAfter>
+	<description>Removes path cost for accessing the Digital Storage Units.</description>
+</ModMetaData>
